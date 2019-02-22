@@ -1,5 +1,6 @@
-npm run build
+## How to run?
+* `npm run build`
+* `docker build --rm -f Dockerfile -t hello-docker:latest .`
+* `docker run -it --rm -p 1982:80 --name hi hello-docker`
 
-docker build --rm -f Dockerfile -t helldocker:latest .
-
-docker run --rm -d -p 80:80 helldocker:latest
+![alt text](/hello-docker.gif)
